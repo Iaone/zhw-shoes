@@ -1,0 +1,103 @@
+/********** Fixes **********/
+
+* {
+  margin:0;
+  padding:0;
+  border:0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/* Positioning Classes */
+
+#grass-shoes {
+  display: inline-block;
+  float: left;
+  width: 66%;
+  margin: 10px;
+  margin-left: 0px;
+  padding-bottom: 0px;
+}
+
+#shoe-archive {
+  position: relative;
+  display: inline-block;
+  float: right;
+  width: 32%;
+  margin: 1px;
+  top: 8px;
+  padding-bottom: 17px;
+  padding-right: 10px;
+  clear: bottom;
+}
+
+#pic-1{
+  display: inline-block;
+  position: relative;
+  float: left;
+  width: 32%;
+  right: 20px;
+  margin-top: 10px;
+}
+
+#pic-2{  
+  display: inline-block;
+  position: relative;
+  float: left;
+  width: 32%;
+  right: 20px;
+  margin-top: 10px;
+}
+
+#pic-3{
+  display: inline-block;
+  position: relative;
+  float: right;
+  width: 32%;
+  bottom: 348px;
+}
+
+
+[id*="pic-"] {
+  margin-left: 2%;
+}
+
+.border_right {
+  margin-left: 2%;
+  float: left;
+}
+
+#contact {
+  width: 32%;
+}
+
+#links {
+  width: 32%;
+}
+
+body {
+  height: 1750px;
+}
+
+html {
+  height: 1750px;
+}
+
+
+
+
+
